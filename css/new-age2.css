@@ -311,7 +311,8 @@ section .subsection-content h2 {
 section .subsection-content h3 {
   margin-bottom: 40px;
 }
-section .subsection-content a.more {
+section .subsection-content a.more,
+section .subsection-content a.video {
   font-family: "Quicksand";
   font-weight: "bold";
   color: #999;
@@ -319,12 +320,18 @@ section .subsection-content a.more {
   display: inline-block;
   margin-bottom: 20px;
 }
-section .subsection-content a.more .caret {
+section .subsection-content a.more .caret,
+section .subsection-content a.video .caret {
   transition: transform 0.2s;
   transform: rotate(180deg);
 }
-section .subsection-content a.more.collapsed .caret {
+section .subsection-content a.more.collapsed .caret,
+section .subsection-content a.video.collapsed .caret {
   transform: rotate(0);
+}
+section .subsection-content a.more .glyphicon,
+section .subsection-content a.video .glyphicon {
+  vertical-align: middle;
 }
 @media (max-width: 768px) {
   section.app,
