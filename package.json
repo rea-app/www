@@ -1,13 +1,9 @@
 {
-  "name": "new-age",
-  "title": "New Age",
-  "version": "3.3.7",
-  "homepage": "http://startbootstrap.com/template-overviews/new-age",
-  "author": "Start Bootstrap",
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
-  },
+  "name": "www",
+  "title": "Réa. website",
+  "version": "1.0",
+  "homepage": "http://rea-app.fr",
+  "author": "max@aggedon.com",
   "devDependencies": {
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.13.0",
@@ -18,16 +14,14 @@
     "gulp-less": "^3.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.5.4",
-    "jquery": "^1.11.3"
+    "jquery": "^1.11.3",
+    "gulp-gh-pages": "^0.5.4"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-new-age.git"
-  },
-  "dependencies": {
-    "simple-line-icons": "^2.3.2"
+    "url": "https://github.com/rea-app/www.git"
   },
   "scripts": {
-    "start": "node --harmony-async-await index"
+    "start": "gulp dev"
   }
 }
