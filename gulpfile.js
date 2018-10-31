@@ -9,8 +9,8 @@ var pkg = require("./package.json");
 var ghPages = require('gulp-gh-pages');
 
 
-gulp.task('deploy', ['default'], function() {
-  gulp.src('./static/**/*').pipe(ghPages())
+gulp.task('deploy', function() {
+  return gulp.src('./static/**/*').pipe(ghPages());
 });
 
 // Set the banner content
