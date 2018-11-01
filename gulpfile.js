@@ -6,7 +6,7 @@ var cleanCSS = require("gulp-clean-css");
 var rename = require("gulp-rename");
 var uglify = require("gulp-uglify");
 var pkg = require("./package.json");
-var ghPages = require('gulp-gh-pages');
+var ghPages = require('gulp-gh-pages-will');
 
 
 gulp.task('deploy', function() {
