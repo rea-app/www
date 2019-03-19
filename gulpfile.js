@@ -38,10 +38,36 @@ gulp.task("less", function() {
     );
 });
 
+gulp.task("less", function() {
+  return gulp
+    .src("less/main.less")
+    .pipe(less())
+    // .pipe(header(banner, { pkg: pkg }))
+    .pipe(gulp.dest("static/css"))
+    .pipe(
+      browserSync.reload({
+        stream: true,
+      })
+    );
+});
+
 // Minify compiled CSS
 gulp.task("minify-css", ["less"], function() {
   return gulp
     .src("static/css/new-age.css")
+    .pipe(cleanCSS({ compatibility: "ie8" }))
+    .pipe(rename({ suffix: ".min" }))
+    .pipe(gulp.dest("static/css"))
+    .pipe(
+      browserSync.reload({
+        stream: true,
+      })
+    );
+});
+
+gulp.task("minify-css", ["less"], function() {
+  return gulp
+    .src("static/css/main.css")
     .pipe(cleanCSS({ compatibility: "ie8" }))
     .pipe(rename({ suffix: ".min" }))
     .pipe(gulp.dest("static/css"))
