@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24">
+  <defs>
+    <style>
+      .e5559fa7-764c-4ef6-8809-a9c843307645 {
+        fill: #fff;
+      }
+
+      .e83732f5-7235-423d-b426-52577c77d8c6 {
+        fill: #ffe211;
+      }
+
+      .ac1fc38e-be65-49dc-b01c-6c912ab6c3f6 {
+        fill: none;
+        stroke: #2a2a2a;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <title>Asset 18-rea</title>
+  <g id="ad15daf2-82ba-45b4-bb63-976335be6717" data-name="Layer 2">
+    <g id="acc87fb0-7de7-40f6-8e99-8ee6b4d90256" data-name="Layer 1">
+      <g>
+        <path class="e5559fa7-764c-4ef6-8809-a9c843307645" d="M.5.5v5h0a2,2,0,0,0,2,2h2a2,2,0,0,0,2-2V.5"/>
+        <path class="e5559fa7-764c-4ef6-8809-a9c843307645" d="M8.5.5v5h0a2,2,0,0,0,2,2h2a2,2,0,0,0,2-2V.5"/>
+        <path class="e5559fa7-764c-4ef6-8809-a9c843307645" d="M16.5.5v5h0a2,2,0,0,0,2,2h2a2,2,0,0,0,2-2V.5"/>
+        <g>
+          <path class="e83732f5-7235-423d-b426-52577c77d8c6" d="M.49994,7V22c0,1.1.90015,1.5,2,1.5h2c1.1001,0,2-.4,2-1.5V7A5.2766,5.2766,0,0,1,.49994,7Z"/>
+          <path class="e83732f5-7235-423d-b426-52577c77d8c6" d="M8.49994,7V22c0,1.1.90015,1.5,2,1.5h2c1.1001,0,2-.4,2-1.5V7A5.54947,5.54947,0,0,1,8.49994,7Z"/>
+          <path class="e83732f5-7235-423d-b426-52577c77d8c6" d="M16.49994,7V22c0,1.1.90015,1.5,2,1.5h2c1.1001,0,2-.4,2-1.5V7A5.54947,5.54947,0,0,1,16.49994,7Z"/>
+        </g>
+        <path class="ac1fc38e-be65-49dc-b01c-6c912ab6c3f6" d="M.5.5v5h0a2,2,0,0,0,2,2h2a2,2,0,0,0,2-2V.5"/>
+        <path class="ac1fc38e-be65-49dc-b01c-6c912ab6c3f6" d="M.5,6V22c0,1.1.9,1.5,2,1.5h2c1.1,0,2-.4,2-1.5V6"/>
+        <path class="ac1fc38e-be65-49dc-b01c-6c912ab6c3f6" d="M8.5.5v5h0a2,2,0,0,0,2,2h2a2,2,0,0,0,2-2V.5"/>
+        <path class="ac1fc38e-be65-49dc-b01c-6c912ab6c3f6" d="M8.5,6V22c0,1.1.9,1.5,2,1.5h2c1.1,0,2-.4,2-1.5V6"/>
+        <path class="ac1fc38e-be65-49dc-b01c-6c912ab6c3f6" d="M16.5.5v5h0a2,2,0,0,0,2,2h2a2,2,0,0,0,2-2V.5"/>
+        <path class="ac1fc38e-be65-49dc-b01c-6c912ab6c3f6" d="M16.5,6V22c0,1.1.9,1.5,2,1.5h2c1.1,0,2-.4,2-1.5V6"/>
+        <path class="ac1fc38e-be65-49dc-b01c-6c912ab6c3f6" d="M6.5,19.5H.5"/>
+        <path class="ac1fc38e-be65-49dc-b01c-6c912ab6c3f6" d="M6.5,17.5H.5"/>
+        <path class="ac1fc38e-be65-49dc-b01c-6c912ab6c3f6" d="M14.5,19.5h-6"/>
+        <path class="ac1fc38e-be65-49dc-b01c-6c912ab6c3f6" d="M14.5,17.5h-6"/>
+        <path class="ac1fc38e-be65-49dc-b01c-6c912ab6c3f6" d="M22.5,19.5h-6"/>
+        <path class="ac1fc38e-be65-49dc-b01c-6c912ab6c3f6" d="M22.5,17.5h-6"/>
+        <path class="ac1fc38e-be65-49dc-b01c-6c912ab6c3f6" d="M6.5,13.5H.5"/>
+        <path class="ac1fc38e-be65-49dc-b01c-6c912ab6c3f6" d="M6.5,11.5H.5"/>
+        <path class="ac1fc38e-be65-49dc-b01c-6c912ab6c3f6" d="M14.5,13.5h-6"/>
+        <path class="ac1fc38e-be65-49dc-b01c-6c912ab6c3f6" d="M14.5,11.5h-6"/>
+        <path class="ac1fc38e-be65-49dc-b01c-6c912ab6c3f6" d="M22.5,13.5h-6"/>
+        <path class="ac1fc38e-be65-49dc-b01c-6c912ab6c3f6" d="M22.5,11.5h-6"/>
+        <path class="ac1fc38e-be65-49dc-b01c-6c912ab6c3f6" d="M2.5,5.5v-4"/>
+        <path class="ac1fc38e-be65-49dc-b01c-6c912ab6c3f6" d="M4.5,5.5v-4"/>
+        <path class="ac1fc38e-be65-49dc-b01c-6c912ab6c3f6" d="M10.5,5.5v-4"/>
+        <path class="ac1fc38e-be65-49dc-b01c-6c912ab6c3f6" d="M12.5,5.5v-4"/>
+        <path class="ac1fc38e-be65-49dc-b01c-6c912ab6c3f6" d="M18.5,5.5v-4"/>
+        <path class="ac1fc38e-be65-49dc-b01c-6c912ab6c3f6" d="M20.5,5.5v-4"/>
+      </g>
+    </g>
+  </g>
+</svg>

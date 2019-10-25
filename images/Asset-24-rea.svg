@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.00012" height="23.99996" viewBox="0 0 24.00012 23.99996">
+  <defs>
+    <style>
+      .e5160d29-6957-42bd-95b7-24e6c7e95191 {
+        fill: #ffe211;
+      }
+
+      .b9dfb259-983a-4fe7-8c52-30a795529a1a, .e5160d29-6957-42bd-95b7-24e6c7e95191 {
+        stroke: #2a2a2a;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .b9dfb259-983a-4fe7-8c52-30a795529a1a {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>Asset 24-rea</title>
+  <g id="a698fb70-20ea-494b-9f7e-769a509ed112" data-name="Layer 2">
+    <g id="abee29ff-dc5d-4771-9106-fa81bc7abcff" data-name="Layer 1">
+      <g>
+        <path class="e5160d29-6957-42bd-95b7-24e6c7e95191" d="M13.5001,10h0a.5.5,0,0,0,.5.5h9.5a10,10,0,0,0-10-10Z"/>
+        <path class="b9dfb259-983a-4fe7-8c52-30a795529a1a" d="M20.5751,19.571h0a9.965,9.965,0,0,0,2.925-7.071h-9.5c-.275,0-.341.159-.147.353Z"/>
+        <path class="b9dfb259-983a-4fe7-8c52-30a795529a1a" d="M10.5001,3.5h0a10,10,0,1,0,7.071,17.071l-6.718-6.718h0a1.391,1.391,0,0,1-.353-.853Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

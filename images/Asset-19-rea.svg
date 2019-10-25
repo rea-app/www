@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23.001" viewBox="0 0 23 23.001">
+  <defs>
+    <style>
+      .a6e8fe0f-39b7-4b31-944d-054e7ae10a93 {
+        fill: #fff;
+      }
+
+      .a6e8fe0f-39b7-4b31-944d-054e7ae10a93, .ab96124b-08bf-4c2c-a27c-eca7294bc108, .b41e5d7b-0cc8-4d6f-a969-4589ee7fa34b {
+        stroke: #2a2a2a;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .b41e5d7b-0cc8-4d6f-a969-4589ee7fa34b {
+        fill: none;
+      }
+
+      .ab96124b-08bf-4c2c-a27c-eca7294bc108 {
+        fill: #ffe211;
+      }
+    </style>
+  </defs>
+  <title>Asset 19-rea</title>
+  <g id="ab86b164-f89f-4693-95ab-576cc4197861" data-name="Layer 2">
+    <g id="a7279680-72b9-493e-8c2a-f546c18d510e" data-name="Layer 1">
+      <g>
+        <path class="a6e8fe0f-39b7-4b31-944d-054e7ae10a93" d="M1.5,22.501a1,1,0,0,1-1-1v-18a1,1,0,0,1,1-1h20a1,1,0,0,1,1,1v18a1,1,0,0,1-1,1Z"/>
+        <path class="b41e5d7b-0cc8-4d6f-a969-4589ee7fa34b" d="M3.5.5v3"/>
+        <path class="b41e5d7b-0cc8-4d6f-a969-4589ee7fa34b" d="M7.5.5v3"/>
+        <path class="b41e5d7b-0cc8-4d6f-a969-4589ee7fa34b" d="M11.5.5v3"/>
+        <path class="b41e5d7b-0cc8-4d6f-a969-4589ee7fa34b" d="M15.5.5v3"/>
+        <path class="b41e5d7b-0cc8-4d6f-a969-4589ee7fa34b" d="M19.5.5v3"/>
+        <path class="b41e5d7b-0cc8-4d6f-a969-4589ee7fa34b" d="M12.5,7.5h3v4h-4v-3h0A1,1,0,0,1,12.5,7.5Z"/>
+        <path class="ab96124b-08bf-4c2c-a27c-eca7294bc108" d="M15.5,7.5h3a1,1,0,0,1,1,1v3h-4Z"/>
+        <path class="b41e5d7b-0cc8-4d6f-a969-4589ee7fa34b" d="M11.5,11.501h4v4h-4Z"/>
+        <path class="b41e5d7b-0cc8-4d6f-a969-4589ee7fa34b" d="M15.5,11.501h4v4h-4Z"/>
+        <path class="b41e5d7b-0cc8-4d6f-a969-4589ee7fa34b" d="M11.5,15.501h4v4h-4Z"/>
+        <path class="b41e5d7b-0cc8-4d6f-a969-4589ee7fa34b" d="M15.5,15.5h4v3h0a1,1,0,0,1-1,1h-3Z"/>
+        <path class="ab96124b-08bf-4c2c-a27c-eca7294bc108" d="M4.5,11.5h3v4h-4v-3h0A1,1,0,0,1,4.5,11.5Z"/>
+        <path class="ab96124b-08bf-4c2c-a27c-eca7294bc108" d="M7.5,11.501h4v4h-4Z"/>
+        <path class="b41e5d7b-0cc8-4d6f-a969-4589ee7fa34b" d="M3.5,15.5h4v4h-3a1,1,0,0,1-1-1h0Z"/>
+        <path class="b41e5d7b-0cc8-4d6f-a969-4589ee7fa34b" d="M7.5,15.501h4v4h-4Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
