@@ -667,7 +667,7 @@ blockquote {
 }
 
 .inside-container.pricing {
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 
 .flex-area {
@@ -2099,6 +2099,7 @@ blockquote {
 }
 
 .heading-4 {
+  margin-bottom: 20px;
   font-size: 2.8em;
 }
 
@@ -3851,8 +3852,8 @@ blockquote {
     border-style: none;
   }
   .background-video-2 {
-    width: 316px;
-    height: 454px;
+    width: 280px;
+    height: 415px;
   }
   .image-20 {
     width: 90%;

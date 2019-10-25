@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Oct 24 2019 09:23:07 GMT+0000 (UTC)  -->
+<!--  Last Published: Fri Oct 25 2019 13:47:37 GMT+0000 (UTC)  -->
 <html data-wf-page="5dadac07f0c5291ebc263d8b" data-wf-site="5d9af27f7a2a6e20587e3307">
 <head>
   <meta charset="utf-8">
@@ -41,5 +41,60 @@
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script type="text/javascript">
+    makeWebflowFormAjax = function (forms, successCallback, errorCallback) {
+      forms.each(function () {
+        var form = $(this);
+        form.on("submit", function () {
+          var container = form.parent();
+          var doneBlock = $(".w-form-done", container);
+          var failBlock = $(".w-form-fail", container);
+          var action = form.attr("action");
+          var method = form.attr("method");
+          var data = form.serialize();
+          // call via ajax
+          $.ajax({
+            type: method,
+            url: action,
+            data: data,
+            success: function (resultData) {
+              if (typeof successCallback === 'function') {
+                // call custom callback
+                result = successCallback(resultData);
+                if (!result) {
+                  // show error (fail) block
+                  form.show();
+                  doneBlock.hide();
+                  failBlock.show();
+                  console.log(e);
+                  return;
+                }
+              }
+              // show success (done) block
+              form.hide();
+              doneBlock.show();
+              failBlock.hide();
+            },
+            error: function (e) {
+              // call custom callback
+              if (typeof errorCallback === 'function') {
+                errorCallback(e)
+              }
+              // show error (fail) block
+              form.show();
+              doneBlock.hide();
+              failBlock.show();
+              console.log(e);
+            }
+          });
+          // prevent default webdlow action
+          return false;
+        });
+      });
+    }
+    $(function () {
+      makeWebflowFormAjax($("form"));
+    });
+  </script>
 </body>
 </html>
