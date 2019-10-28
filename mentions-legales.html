@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Fri Oct 25 2019 13:47:37 GMT+0000 (UTC)  -->
+<!--  Last Published: Mon Oct 28 2019 14:41:20 GMT+0000 (UTC)  -->
 <html data-wf-page="5da7109a58568a3e51f9885b" data-wf-site="5d9af27f7a2a6e20587e3307">
 <head>
   <meta charset="utf-8">
@@ -24,8 +24,10 @@
   <script>
     (function (i, s, o, g, r, a, m) { i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o), m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m) })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
     ga('create', 'UA-91397467-1', 'auto');
+    ga('set', 'anonymizeIp', 'true');
     ga('send', 'pageview');
-  </script>
+</script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css">
 </head>
 <body>
   <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar w-nav">
@@ -61,8 +63,8 @@
         </div>
         <div class="footer-cell">
           <div class="div-block-45">
-            <h3 class="footer-col-title">Produit<br></h3><a href="#" class="footer-link">Fonctionnalités</a><a href="#" class="footer-link">Tarifs</a><a data-w-id="c7ec9630-1b39-4d0a-b167-71cd94831d29" href="#" class="footer-link">S&#x27;inscrire gratuitement</a></div>
-          <div class="div-block-46"><a href="https://play.google.com/store/apps/details?id=com.aggedon.rea" class="app-link w-inline-block"><img src="images/google-play-badge.svg" alt="" class="image-27"></a><a href="https://plahttps://itunes.apple.com/us/app/r%C3%A9a/id1317159542y.google.com/store/apps/details?id=com.aggedon.rea" class="app-link w-inline-block"><img src="images/app-store-badge.svg" alt="" class="image-27"></a></div>
+            <h3 class="footer-col-title">Produit<br></h3><a href="#" class="footer-link">Fonctionnalités</a><a href="#" class="footer-link">Tarifs</a><a href="https://mon.rea-app.fr/signup" class="footer-link">S&#x27;inscrire gratuitement</a></div>
+          <div class="div-block-46"><a href="https://play.google.com/store/apps/details?id=com.aggedon.rea" class="app-link w-inline-block"><img src="images/google-play-badge.svg" alt="" class="image-27"></a><a href="https://itunes.apple.com/us/app/r%C3%A9a/id1317159542" class="app-link w-inline-block"><img src="images/app-store-badge.svg" alt="" class="image-27"></a></div>
         </div>
         <div class="footer-cell">
           <h3 class="footer-col-title">Cas d&#x27;usage<br></h3><a href="cas-dusage.html" class="footer-link">Concepteur</a><a href="cas-dusage.html" class="footer-link">Maître d&#x27;oeuvre</a><a href="cas-dusage.html" class="footer-link">Entrepreneur bâtiment et agenceur</a><a href="cas-dusage.html" class="footer-link">Courtier en travaux</a><a href="cas-dusage.html" class="footer-link">Particulier</a></div>
@@ -138,6 +140,27 @@
     }
     $(function () {
       makeWebflowFormAjax($("form"));
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+  <script>
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#000000c7"
+        },
+        "button": {
+          "background": "#ffe211"
+        }
+      },
+      "showLink": false,
+      "theme": "classic",
+      "position": "bottom-right",
+      "content": {
+        "message": "Nous utilisons des cookies pour vous garantir la meilleure navigation.",
+        "dismiss": "J'ai compris !",
+        "link": "En savoir plus"
+      }
     });
   </script>
 </body>
