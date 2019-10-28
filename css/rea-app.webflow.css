@@ -670,6 +670,10 @@ blockquote {
   margin-bottom: 20px;
 }
 
+.inside-container.presse {
+  margin-top: 20px;
+}
+
 .flex-area {
   display: -webkit-box;
   display: -webkit-flex;
@@ -918,8 +922,16 @@ blockquote {
   margin-top: 20px;
 }
 
+.cta-bar.pricing {
+  margin-bottom: 20px;
+}
+
 .cta-bar.centered {
   text-align: center;
+}
+
+.cta-bar.right {
+  text-align: right;
 }
 
 .phylactere {
@@ -1399,8 +1411,8 @@ blockquote {
 }
 
 .div-block-11.mac.padded {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 120px;
+  margin-bottom: 100px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -1715,6 +1727,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 40px;
 }
 
 .new-flex-cell {
@@ -2115,7 +2128,7 @@ blockquote {
 }
 
 .heading-4 {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-size: 2.8em;
 }
 
@@ -2369,6 +2382,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 40px;
   margin-bottom: 40px;
 }
 
@@ -2384,7 +2398,8 @@ blockquote {
 
 .hero-explainer {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 .div-block-37 {
@@ -2995,7 +3010,7 @@ blockquote {
     font-size: 1.2em;
   }
   .heading-3 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 1.8em;
   }
   .quote {
@@ -3041,7 +3056,8 @@ blockquote {
     flex-direction: row;
   }
   .div-block-11.mac.padded {
-    margin-top: 0px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -3429,6 +3445,7 @@ blockquote {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    margin-bottom: 0px;
   }
   .new-flex-cell._40 {
     width: 100%;
@@ -3474,7 +3491,6 @@ blockquote {
     margin-bottom: 20px;
   }
   .div-block-25 {
-    width: 80%;
     margin-top: 20px;
   }
   .cell-content {
@@ -3578,7 +3594,7 @@ blockquote {
 
 @media (max-width: 479px) {
   .petit-chapo {
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     font-size: 1em;
     line-height: 1.3;
   }
@@ -3599,7 +3615,7 @@ blockquote {
     padding-bottom: 99px;
   }
   .section.customers {
-    padding: 10px 20px;
+    padding: 20px;
   }
   .section.testimonials {
     padding-right: 20px;
@@ -3625,6 +3641,12 @@ blockquote {
   .inside-container {
     padding-right: 0px;
     padding-left: 0px;
+  }
+  .inside-container.features {
+    padding-bottom: 20px;
+  }
+  .inside-container.presse {
+    padding-top: 30px;
   }
   .flex-area {
     -webkit-box-orient: vertical;
@@ -3710,6 +3732,9 @@ blockquote {
   }
   .cta-bar {
     margin-top: 40px;
+    text-align: center;
+  }
+  .cta-bar.right {
     text-align: center;
   }
   .phylactere {
@@ -3809,7 +3834,8 @@ blockquote {
     margin-top: 20px;
   }
   .div-block-11.mac.padded {
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
     -webkit-flex-direction: column-reverse;
@@ -3825,6 +3851,7 @@ blockquote {
   }
   .div-block-12.shrunked-2 {
     padding-right: 0px;
+    padding-top: 20px;
   }
   .div-block-12.illustration {
     margin-top: -31px;
@@ -3921,8 +3948,8 @@ blockquote {
     border-style: none;
   }
   .background-video-2 {
-    width: 280px;
-    height: 415px;
+    width: 200px;
+    height: 296px;
   }
   .image-20 {
     width: 90%;
