@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15.95" height="12.5" viewBox="0 0 15.95 12.5">
+  <defs>
+    <style>
+      .f824336d-c931-4ee3-a291-664f6fe9c136 {
+        fill: #ffe211;
+      }
+
+      .b5b37aa9-34a3-44e0-87f0-61faba0660b3, .f824336d-c931-4ee3-a291-664f6fe9c136 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .b5b37aa9-34a3-44e0-87f0-61faba0660b3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>Asset 16-rea</title>
+  <g id="ea4c50eb-2401-48b8-b2e2-2c6d3bba78f9" data-name="Layer 2">
+    <g id="a91d63f8-690c-49c7-b6aa-a098210164e0" data-name="Layer 1">
+      <g>
+        <path class="f824336d-c931-4ee3-a291-664f6fe9c136" d="M8.02,11.43h0A3.45,3.45,0,0,1,4.57,7.98h0V4.5h0A3.44,3.44,0,0,1,8.02,1.08h0A3.45,3.45,0,0,1,11.43,4.5V7.95A3.46,3.46,0,0,1,8.02,11.43Z"/>
+        <path class="b5b37aa9-34a3-44e0-87f0-61faba0660b3" d="M11.43,3.95h0A3.45,3.45,0,0,0,14.88.5h0"/>
+        <path class="b5b37aa9-34a3-44e0-87f0-61faba0660b3" d="M11.43,8.55h0A3.45,3.45,0,0,1,14.88,12h0"/>
+        <path class="b5b37aa9-34a3-44e0-87f0-61faba0660b3" d="M11.43,6.25h4.02"/>
+        <path class="b5b37aa9-34a3-44e0-87f0-61faba0660b3" d="M4.53,3.95h0A3.44,3.44,0,0,1,1.08.52q0-.01,0-.02h0"/>
+        <path class="b5b37aa9-34a3-44e0-87f0-61faba0660b3" d="M4.53,8.55h0a3.44,3.44,0,0,0-3.45,3.43q0,.01,0,.02h0"/>
+        <path class="b5b37aa9-34a3-44e0-87f0-61faba0660b3" d="M4.53,6.25H.5"/>
+        <path class="b5b37aa9-34a3-44e0-87f0-61faba0660b3" d="M4.53,5.1h6.9"/>
+        <path class="b5b37aa9-34a3-44e0-87f0-61faba0660b3" d="M7.98,5.1v6.33"/>
+      </g>
+    </g>
+  </g>
+</svg>

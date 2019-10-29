@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.00003" height="24" viewBox="0 0 24.00003 24">
+  <defs>
+    <style>
+      .e853b237-15a8-4859-943f-71608d952f61 {
+        fill: #fff;
+      }
+
+      .a5e25ff9-895c-42f3-9d17-e371c7c79b62, .b814a1eb-0024-40c2-aea0-ef8d0dd5292e, .e853b237-15a8-4859-943f-71608d952f61, .ed2dca31-9e03-49ee-b489-d22b6c8eeae4 {
+        stroke: #2a2a2a;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .a5e25ff9-895c-42f3-9d17-e371c7c79b62 {
+        fill: #ffee8d;
+      }
+
+      .ed2dca31-9e03-49ee-b489-d22b6c8eeae4 {
+        fill: none;
+      }
+
+      .b814a1eb-0024-40c2-aea0-ef8d0dd5292e {
+        fill: #ffe211;
+      }
+    </style>
+  </defs>
+  <title>Asset 22-rea</title>
+  <g id="be8711d7-26ee-4552-87e7-f637b11e8c15" data-name="Layer 2">
+    <g id="a845222a-9d7e-4043-a53c-bd5b211a73b3" data-name="Layer 1">
+      <g>
+        <path class="e853b237-15a8-4859-943f-71608d952f61" d="M13.82654,20.23242A4.52823,4.52823,0,0,1,19.5,13.236V5.207a.99987.99987,0,0,0-.293-.707L15.5.794A.99978.99978,0,0,0,14.793.5H1.5a1,1,0,0,0-1,1v21a1,1,0,0,0,1,1h18V20.82391A4.52893,4.52893,0,0,1,13.82654,20.23242Z"/>
+        <path class="a5e25ff9-895c-42f3-9d17-e371c7c79b62" d="M20.23153,13.8275a4.529,4.529,0,1,1-6.405,0,4.529,4.529,0,0,1,6.405,0"/>
+        <path class="ed2dca31-9e03-49ee-b489-d22b6c8eeae4" d="M23.5,23.5l-3.25-3.25"/>
+        <circle class="b814a1eb-0024-40c2-aea0-ef8d0dd5292e" cx="9.50003" cy="10.50099" r="5"/>
+        <path class="ed2dca31-9e03-49ee-b489-d22b6c8eeae4" d="M9.5,7.501v3h2"/>
+      </g>
+    </g>
+  </g>
+</svg>
