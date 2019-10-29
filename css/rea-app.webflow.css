@@ -3635,6 +3635,10 @@ blockquote {
     padding-right: 20px;
     padding-left: 20px;
   }
+  .section.use-cases {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
   .footer-cell {
     width: 100%;
   }
