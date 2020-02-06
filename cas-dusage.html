@@ -43,6 +43,7 @@
       }
     });
   </script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <link rel="stylesheet" type="text/css"
     href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css">
 </head>
@@ -282,9 +283,12 @@
             type="tel" class="text-field w-input" maxlength="256" name="phone" data-name="Phone" placeholder="Téléphone"
             id="phone" required=""><input type="email" class="text-field w-input" maxlength="256" name="phone"
             data-name="Email" placeholder="Adresse e-mail" id="phone" required="">
-          <p class="paragraph-2 menton-2">Merci de remplir tous les champs.</p><input type="submit"
-            value="Envoyer la demande" data-wait="Merci de patienter..." class="button yellow w-button"><a
-            data-w-id="71e2b6a8-fb1b-046a-438e-de10271923fb" href="#" class="link-3">Fermer</a>
+          <p class="paragraph-2 menton-2">Merci de remplir tous les champs.</p>
+          <br />
+          <div class="g-recaptcha" data-sitekey="6Lf4btYUAAAAADUEiAiXuhQ81GGBi3KOBq1dvJrL"></div>
+          <input type="submit" value="Envoyer la demande" data-wait="Merci de patienter..."
+            class="button yellow w-button"><a data-w-id="71e2b6a8-fb1b-046a-438e-de10271923fb" href="#"
+            class="link-3">Fermer</a>
         </form>
         <div class="success-message w-form-done"><img src="images/26-Team-Vote-Hand-Thumbs-UP.svg" alt="">
           <div>Merci ! Votre demande a été envoyée.</div><a data-w-id="1378a177-8843-35be-6582-c4358c68328f" href="#"
