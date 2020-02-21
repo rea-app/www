@@ -986,8 +986,22 @@
         });
       });
     }
+    function getURLParameter(sParam) {
+      var sPageURL = window.location.search.substring(1);
+      var sURLVariables = sPageURL.split('&');
+      for (var i = 0; i < sURLVariables.length; i++) {
+        var sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] == sParam) {
+          return sParameterName[1] || null;
+        }
+      }
+    }
+
     $(function () {
       makeWebflowFormAjax($("form"));
+      if (["true", null].includes(getURLParameter("demo"))) {
+        $("[data-w-id='68a0c1e5-387f-e4fa-d7ff-e13cf1f3d3c5']").get(0).click()
+      }
     });
   </script>
   <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
