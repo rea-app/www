@@ -5,13 +5,13 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Réa — Organisation et suivi de chantier. Démo gratuite.</title>
+  <title>Réa — Gestion de chantier simplifiée</title>
   <meta
-    content="Réa fonctionne sur tout ordinateur en ligne, tablettes et smartphones. Prise en main facile, aucune carte de crédit requise, 14 premiers jours gratuits et sans engagement."
+    content="Réa fonctionne sur web, tablette et smartphone. Prise en main facile, aucune carte de crédit requise, 14 premiers jours gratuits et sans engagement."
     name="description">
-  <meta content="Réa — Organisation et suivi de chantier. Démo gratuite." property="og:title">
+  <meta content="Réa — Gestion de chantier simplifiée" property="og:title">
   <meta
-    content="Réa fonctionne sur tout ordinateur en ligne, tablettes et smartphones. Prise en main facile, aucune carte de crédit requise, 14 premiers jours gratuits et sans engagement."
+    content="Réa fonctionne sur web, tablette et smartphone. Prise en main facile, aucune carte de crédit requise, 14 premiers jours gratuits et sans engagement."
     property="og:description">
   <meta
     content="https://uploads-ssl.webflow.com/5d9af27f7a2a6e20587e3307/5d9b5843a491dd81763f1686_Rea%20Asset%20-%201200%20%C3%97%20630%20Open%20Graph.png"
@@ -968,6 +968,7 @@
               form.hide();
               doneBlock.show();
               failBlock.hide();
+              gtag("event", "generate_lead")
             },
             error: function (e) {
               // call custom callback
