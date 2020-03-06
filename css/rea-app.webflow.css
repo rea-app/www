@@ -2211,8 +2211,8 @@ blockquote {
 }
 
 .image-16 {
-  width: 200px;
-  margin-right: 40px;
+  width: 180px;
+  margin-right: 60px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
@@ -2220,7 +2220,8 @@ blockquote {
 }
 
 .image-17 {
-  width: 140px;
+  width: 120px;
+  margin-right: 60px;
 }
 
 .heading-5 {
