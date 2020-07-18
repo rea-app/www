@@ -159,8 +159,25 @@ blockquote {
   border-left-color: #fff;
 }
 
+.highlight {
+  background-color: #fff;
+  line-height: normal;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 4px;
+}
+
 .chapo {
   font-size: 1.5em;
+  color: #393A3D;
+}
+.chapo.small {
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #6A737B;
+  margin-bottom: 40px;
 }
 
 .chapo.centered {
@@ -395,7 +412,7 @@ blockquote {
 
 .button.cta.hero {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
@@ -561,8 +578,13 @@ blockquote {
   display: inline-block;
   width: 100%;
   margin-top: 60px;
+  padding-bottom: 100px;
   padding-top: 40px;
   background-color: #ffe211;
+}
+
+.hero h1.heading-4 {
+  margin-bottom: 60px;
 }
 
 .section.app {
@@ -600,12 +622,18 @@ blockquote {
 .section.keys {
   padding-top: 60px;
   padding-bottom: 140px;
+  /* background-color: #ffe211; */
+}
+
+.section.explainer {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #ffe211;
 }
 
 .section.recap {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 75px;
   background-color: #ffe211;
 }
 
@@ -1998,7 +2026,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2030,6 +2058,16 @@ blockquote {
   box-shadow: inset 0 0 0 2px #fff;
   text-align: center;
   cursor: pointer;
+  position: relative;
+}
+
+.cell-switch .special-offer {
+  position: absolute;
+  bottom: -25px;
+  font-size: 0.8em;
+  color: #252525;
+  font-weight: 600;
+  text-align: center !important;
 }
 
 .cell-switch.right {
@@ -2415,7 +2453,6 @@ blockquote {
 
 .hero-explainer {
   width: 100%;
-  margin-top: 60px;
   margin-bottom: 40px;
 }
 
@@ -2474,9 +2511,9 @@ blockquote {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-flex-wrap: nowrap;
+  /* -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
+  flex-wrap: nowrap; */
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -2911,6 +2948,9 @@ blockquote {
   .chapo {
     font-size: 1.25em;
   }
+  .chapo.small {
+    font-size: 1.15em;
+  }
   .petit-chapo {
     font-size: 1em;
   }
@@ -3279,6 +3319,10 @@ blockquote {
     font-size: 2em;
     line-height: 1.25;
   }
+  .hero h1 {
+    font-size: 2.2em;
+    line-height: 1.25;
+  }
   h2 {
     font-size: 1.625em;
     line-height: 1.15384615;
@@ -3306,6 +3350,9 @@ blockquote {
   .chapo {
     font-size: 1.2em;
     line-height: 1.5;
+  }
+  .chapo.small {
+    font-size: 0.9em;
   }
   .petit-chapo {
     font-size: 1em;
@@ -3642,6 +3689,10 @@ blockquote {
     padding-right: 20px;
     padding-left: 20px;
   }
+  .section.recap {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
   .section.pricing {
     padding-right: 20px;
     padding-bottom: 20px;
@@ -3651,6 +3702,12 @@ blockquote {
     padding-top: 20px;
     padding-right: 20px;
     padding-left: 20px;
+  }
+  .section.explainer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* padding-right: 20px;
+    padding-left: 20px; */
   }
   .section.use-cases {
     padding-right: 20px;
@@ -4006,7 +4063,6 @@ blockquote {
   }
   .hero-explainer {
     height: auto;
-    margin-top: 20px;
     padding-right: 0px;
     padding-left: 0px;
   }
