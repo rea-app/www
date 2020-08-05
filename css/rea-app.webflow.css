@@ -1295,7 +1295,7 @@ blockquote {
 }
 
 .one-use-case-container {
-  margin-bottom: 40px;
+  margin-bottom: 75px;
   opacity: 1;
 }
 
@@ -2339,7 +2339,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 75px;
 }
 
 .link-6 {
@@ -3253,6 +3253,7 @@ blockquote {
   .div-block-27 {
     padding-right: 66px;
     padding-left: 0px;
+    margin-bottom: 40px;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
