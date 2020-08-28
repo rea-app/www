@@ -2942,6 +2942,26 @@ blockquote {
   margin-bottom: 40px;
 }
 
+.pre-footer-images {
+  margin-bottom: 50px;
+}
+
+.image-gallery {
+  display: flex;
+  margin: -20px;
+}
+
+.gallery-cell {
+  flex: 1;
+  margin: 20px;
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.gallery-cell > img {
+  width: 100%;
+}
+
 @media (max-width: 991px) {
   h1 {
     font-size: 2.5em;
@@ -4173,6 +4193,10 @@ blockquote {
   .popup-2 {
     width: 100%;
     padding: 20px;
+  }
+  .image-gallery {
+    flex-direction: column;
+    margin: 10px;
   }
 }
 
