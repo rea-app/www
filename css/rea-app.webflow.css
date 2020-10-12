@@ -2967,6 +2967,22 @@ blockquote {
   width: 100%;
 }
 
+.caption {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.img-block {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+cite {
+  font-size: 0.8em;
+}
+
 @media (max-width: 991px) {
   h1 {
     font-size: 2.5em;
