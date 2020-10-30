@@ -73,13 +73,17 @@ ul.reset {
   padding-left: 20px;
 } 
 
-li {
-  margin-bottom: 4px;
-  padding-left: 30px;
+ul li {
   background-image: url('../images/hardware-nuts.svg');
   background-position: 0 0.25em;
   background-size: 15px;
   background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+li {
+  margin-bottom: 10px;
+  padding-left: 15px;
   font-size: 1em;
   line-height: 1.4;
 }
@@ -2967,16 +2971,46 @@ blockquote {
   width: 100%;
 }
 
+.section.faq.article-header {
+  padding-top: 150px;
+  background-color: #fafafa;
+  text-align: center;
+}
+.article-title {
+  margin-bottom: 20px;
+}
+.article-subtitle {
+  margin-bottom: 40px;
+}
+.article-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.article-section.last {
+  padding-bottom: 50px;
+}
+.article-cover {
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+.article-ul {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+.img-block {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .caption {
   text-align: center;
   font-style: italic;
   font-weight: bold;
   font-size: 0.9em;
-}
-
-.img-block {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 15px;
+  color: dimgrey;
 }
 
 blockquote.cr-quote {
@@ -2988,6 +3022,8 @@ blockquote.cr-quote {
 cite {
   font-size: 0.8em;
 }
+
+
 
 @media (max-width: 991px) {
   h1 {
